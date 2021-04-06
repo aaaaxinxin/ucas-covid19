@@ -30,6 +30,8 @@
 5. （可选）填写[server酱](http://sc.ftqq.com/3.version)的api，填写之后可以在程序完成打卡之后通知到微信，如果不填写不影响使用(**注意**：微信消息模板可能在2021年4月下线，服务可能失效)
 6. 修改crontab，设定为每天八点半运行。
 
+
+
 具体修改：
 ```bash
 $ crontab -e # 进入crontab的文本模式
@@ -167,6 +169,8 @@ $ crontab -e
 - 2021年1月25日 添加了 github actions 缓存 cookies 的配置
 - 2021年1月27日 优化了取 github 环境变量的方式，减少未设置变量导致出错的概率；兼容 python 3.5 的 pathlib
 - 2021年1月29日 解决接触时间 1970-01-01的问题， 见 [issue 36](https://github.com/IanSmith123/ucas-covid19/issues/36)
+
+
 
 
 # 致谢
